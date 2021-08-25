@@ -1,7 +1,3 @@
-# Get current directory path
-
-SCRIPT_PATH=$(pwd)
-
 # Get user's numbers for calculations
 
 echo "Enter the first number:  "
