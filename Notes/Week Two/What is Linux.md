@@ -24,7 +24,7 @@ A package manager is utilized in Linux in order to install, update and manage so
 
 ## Filesystem
 
-Linux utilizes EXT4, EXT3, BTRFS, XFS. Mainly EXT4 and EXT3. Linux works on the concept that everything starts at the **root** and "Everything is a file". When a device, such as a camera is plugged into a Linux machine, it will be treated as a file allowing for a simple read / write dynamic.
+Linux utilizes EXT4, EXT3, BTRFS, XFS. Mainly EXT4 and EXT3. Linux works on the concept that everything starts at the **root** and "Everything is a file". When a device, such as a camera is plugged into a Linux machine, it will be treated as a file allowing for a simple read / write dynamic. In Linux, file extensions are only used to be associated with third-party programs or software, however the core OS treats all files the same and will not prevent the user from opening / executing it as they like.
 
 ![Root Folders](images/rootFolders.png)
 
@@ -33,6 +33,7 @@ Linux utilizes a different naming scheme than windows machine opting to utilize 
 '~$' is used to represent the user's home directory in the console. Hidden files start with "."
 
 ## Shell
+
 The Linux shell is a text interface to your computer (kernel.) Often referred to as command line, terminal, console or prompt.
 
 **Common console commands:**
@@ -105,13 +106,17 @@ Whilst 'chmod 555' would alter a file to give the user, group and other read and
 
 Logging is the process of saving information to a text file for later review. This is an important process as it allows the user to look back at action or events that took place on the system allowing for an easier troubleshooting process.
 
-| Log Files         | Location          | Description |
-| ---------         | --------          | ----------- |
-| Authorizaiton Log | /var/log/auth.log | Keeps track of authorization systems, such as password prompts, the sudo command and remote logins |
-| Daemon Log | /var/log/daemon.log | Daemons are programs that run in the backgrround, usually without user interaction. For example, display server, SSH sessions, printing services, bluetooth, and more. |
-| Debug Log | /var/log/debug.log | Provides debugging information from the Ubuntu system and applications. |
-| Kernel Log | /var/log/kern.log | Provides logs from the Linux Kernel. |
-| System Log | /var/log/syslog | Contains more information about the system. |
-| Applications Log | /var/log | Certain applications will create logs in subdirectories. |
+| Log Files         | Location            | Description                                                      |
+| ---------         | --------            | ---------------------------------------------------------------- |
+| Authorizaiton Log | */var/log/auth.log* | Keeps track of authorization systems, such as password prompts, the sudo command and remote logins            |
+| Daemon Log | */var/log/daemon.log* | Daemons are programs that run in the backgrround, usually without user interaction. For example, display server, SSH sessions, printing services, bluetooth, and more.              |
+| Debug Log | */var/log/debug.log* | Provides debugging information from the Ubuntu system and applications. |
+| Kernel Log | */var/log/kern.log* | Provides logs from the Linux Kernel.                                    |
+| System Log | */var/log/syslog* | Contains more information about the system.                               |
+| Applications Log | */var/log* | Certain applications will create logs in subdirectories.                   |
 
 'tail -f example/log/directory' can be utilized to watch a log update in real-time
+
+## Scripting
+
+Linux utilizes a software known as 'Bash' for scripting through the shell. A script is a file containing a list of commands to be exectued when the file is ran.'.sh' is utilized to identify to a user that a file is a shell script. When creating a shell script, it is important to remember to set the file permissions to allow for execution by the user.
