@@ -34,7 +34,7 @@ Linux utilizes a different naming scheme than windows machine opting to utilize 
 
 ## Shell
 
-The Linux shell is a text interface to your computer (kernel.) Often referred to as command line, terminal, console or prompt.
+The Linux shell is a text interface to your computer (kernel.) Often referred to as command line, terminal, console or prompt. Commands and names of files and directories are case sensitive.
 
 **Common console commands:**
 - 'pwd' = print the current directory
@@ -48,19 +48,17 @@ The Linux shell is a text interface to your computer (kernel.) Often referred to
 - 'touch' = create a new blank file
 - 'cat' = check contents of a file
 - 'echo' = print output to screen [2^]
-- '.' = points to current directory
-- '..' = points to previous directory
 - 'ps'/ 'top' = show currently working processes
 - 'history' = displays list of previously used commands
 - 'su' = switch user or root (when ran with no additional input)
 - 'passwd' = change current user password
 - 'usermod' = modify account privileges
 
+- '.' = points to current directory
+- '..' = points to previous directory
+
 [1^] whether the command is originating from shell or third-party
-
 [2^] '>' can be used to send the output to a file.
-
-Commands and names of files and directories are case sensitive.
 
 ## Editing & Permissions
 

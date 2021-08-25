@@ -1,0 +1,20 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gimp is already the newest version (2.8.22-1).
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gir1.2-gst-plugins-base-1.0
+  gir1.2-gstreamer-1.0 gir1.2-gudev-1.0 gir1.2-udisks-2.0
+  grilo-plugins-0.3-base gstreamer1.0-gtk3 libboost-date-time1.65.1
+  libboost-filesystem1.65.1 libboost-iostreams1.65.1 libboost-locale1.65.1
+  libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5
+  libdazzle-1.0-0 libe-book-0.1-1 libedataserverui-1.2-2 libeot0
+  libepubgen-0.1-1 libetonyek-0.1-1 libevent-2.1-6 libfreerdp-client2-2
+  libfreerdp2-2 libgc1c2 libgee-0.8-2 libgexiv2-2 libgom-1.0-0 libgpod-common
+  libgpod4 liblangtag-common liblangtag1 liblua5.3-0 libmediaart-2.0-0
+  libmspub-0.1-1 libodfgen-0.1-1 libqqwing2v5 librevenge-0.0-0 libsgutils2-2
+  libssh-4 libvncclient1 libwinpr2-2 libxapian30 libxmlsec1 libxmlsec1-nss
+  lp-solve python3-mako python3-markupsafe syslinux syslinux-common
+  syslinux-legacy usb-creator-common
+Use 'sudo apt autoremove' to remove them.
+0 to upgrade, 0 to newly install, 0 to remove and 2 not to upgrade.

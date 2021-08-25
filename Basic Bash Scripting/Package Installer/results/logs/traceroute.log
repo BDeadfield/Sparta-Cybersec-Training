@@ -1,0 +1,99 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  breeze-icon-theme catdoc dvdauthor dvgrab fonts-liberation2 fonts-opensymbol
+  frei0r-plugins gdal-data gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0
+  gir1.2-gudev-1.0 gir1.2-udisks-2.0 grilo-plugins-0.3-base gstreamer1.0-gtk3
+  kded5 kdenlive-data kinit kio kpackagelauncherqml kpackagetool5 libaec0
+  libarmadillo8 libarpack2 libboost-date-time1.65.1 libboost-filesystem1.65.1
+  libboost-iostreams1.65.1 libboost-locale1.65.1 libcdr-0.1-1 libcharls1
+  libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libdap25
+  libdapclient6v5 libdazzle-1.0-0 libe-book-0.1-1 libebur128-1
+  libedataserverui-1.2-2 libeot0 libepsilon1 libepub0 libepubgen-0.1-1
+  libetonyek-0.1-1 libevent-2.1-6 libexiv2-14 libfreerdp-client2-2
+  libfreerdp2-2 libfreexl1 libfyba0 libgavl1 libgc1c2 libgdal20 libgdcm2.8
+  libgee-0.8-2 libgeos-3.6.2 libgeos-c1v5 libgeotiff2 libgexiv2-2 libgif7
+  libgom-1.0-0 libgpod-common libgpod4 libhdf4-0-alt libhdf5-100
+  libhfstospell9 libkf5attica5 libkf5bookmarks-data libkf5bookmarks5
+  libkf5completion-data libkf5completion5 libkf5declarative-data
+  libkf5declarative5 libkf5doctools5 libkf5filemetadata-bin
+  libkf5filemetadata-data libkf5filemetadata3 libkf5globalaccel-bin
+  libkf5globalaccel-data libkf5globalaccel5 libkf5globalaccelprivate5
+  libkf5jobwidgets-data libkf5jobwidgets5 libkf5kiocore5 libkf5kiofilewidgets5
+  libkf5kiontlm5 libkf5kiowidgets5 libkf5kirigami2-5 libkf5newstuff-data
+  libkf5newstuff5 libkf5newstuffcore5 libkf5notifyconfig-data
+  libkf5notifyconfig5 libkf5package-data libkf5package5 libkf5quickaddons5
+  libkf5solid5 libkf5solid5-data libkf5sonnet5-data libkf5sonnetcore5
+  libkf5sonnetui5 libkf5textwidgets-data libkf5textwidgets5 libkf5xmlgui-bin
+  libkf5xmlgui-data libkf5xmlgui5 libkmlbase1 libkmldom1 libkmlengine1
+  liblangtag-common liblangtag1 liblua5.3-0 libmediaart-2.0-0 libminizip1
+  libmlt++3 libmlt-data libmlt6 libmovit8 libmspub-0.1-1 libmysqlclient20
+  libnetcdf13 libodbc1 libodfgen-0.1-1 libogdi3.2 libopencore-amrnb0
+  libopencore-amrwb0 libopencv-core3.2 libopencv-highgui3.2
+  libopencv-imgcodecs3.2 libopencv-imgproc3.2 libopencv-ml3.2
+  libopencv-objdetect3.2 libopencv-video3.2 libopencv-videoio3.2
+  libpoppler-qt5-1 libpq5 libproj12 libqhull7 libqqwing2v5 libqt5positioning5
+  libqt5printsupport5 libqt5quickcontrols2-5 libqt5quicktemplates2-5
+  libqt5sensors5 libqt5webchannel5 libqt5webkit5 libquicktime2
+  librevenge-0.0-0 librtaudio6 libsgutils2-2 libsocket++1 libsox-fmt-alsa
+  libsox-fmt-base libsox3 libspatialite7 libssh-4 libsuperlu5 libsz2 libtbb2
+  liburiparser1 libvncclient1 libvoikko1 libwinpr2-2 libxapian30
+  libxerces-c3.2 libxmlsec1 libxmlsec1-nss libzip4 lp-solve media-player-info
+  melt mysql-common odbcinst odbcinst1debian2 oxygen-icon-theme proj-bin
+  proj-data python3-mako python3-markupsafe qml-module-org-kde-kirigami2
+  qml-module-org-kde-kquickcontrolsaddons qml-module-org-kde-newstuff
+  qml-module-qtgraphicaleffects qml-module-qtqml-models2
+  qml-module-qtquick-controls qml-module-qtquick-controls2
+  qml-module-qtquick-layouts qml-module-qtquick-templates2
+  qml-module-qtquick-window2 qml-module-qtquick2 recordmydesktop
+  sonnet-plugins swh-plugins syslinux syslinux-common syslinux-legacy
+  usb-creator-common
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed
+  traceroute
+0 to upgrade, 1 to newly install, 0 to remove and 2 not to upgrade.
+Need to get 45.4 kB of archives.
+After this operation, 152 kB of additional disk space will be used.
+Get:1 http://gb.archive.ubuntu.com/ubuntu bionic/universe amd64 traceroute amd64 1:2.1.0-2 [45.4 kB]
+Fetched 45.4 kB in 0s (545 kB/s)
+Selecting previously unselected package traceroute.
+
+(Reading database ...
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 187881 files and directories currently installed.)
+
+Preparing to unpack .../traceroute_1%3a2.1.0-2_amd64.deb ...
+
+Unpacking traceroute (1:2.1.0-2) ...
+
+Setting up traceroute (1:2.1.0-2) ...
+
+update-alternatives: using /usr/bin/traceroute.db to provide /usr/bin/traceroute (traceroute) in auto mode
+
+update-alternatives: using /usr/bin/lft.db to provide /usr/bin/lft (lft) in auto mode
+
+update-alternatives: using /usr/bin/traceproto.db to provide /usr/bin/traceproto (traceproto) in auto mode
+
+update-alternatives: using /usr/sbin/tcptraceroute.db to provide /usr/sbin/tcptraceroute (tcptraceroute) in auto mode
+
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
