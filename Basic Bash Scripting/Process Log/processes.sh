@@ -1,6 +1,7 @@
 # Create 'processes' directory and clear console log
 
 mkdir processes
+clear
 
 # Continuously loop (until the user exits)
 
