@@ -20,7 +20,7 @@ Distributions are different forms of the Linux OS that come with different confi
 
 - **Arch Linux**
 
-A package manager is utilized in Linux in order to install, update and manage software (packages) within the OS. Different Linux distribution will utilize different package managers.
+A package manager is utilized in Linux in order to install, update and manage software (packages) within the OS. Different Linux distributions will utilize different package managers.
 
 ## Filesystem
 
