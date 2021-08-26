@@ -65,7 +65,7 @@ The Linux shell is a text interface to your computer (kernel.) Often referred to
 
 Editors are used in order to alter files. Linux comes with numerous editors, but the default will vary depending on distribution, however additional editors can be installed post-installation of Linux. Some popular editors include: 'nano', 'vi', and 'gedit'. Certain editors will require a graphical user interface in order to be utilized.
 
-When listing files in a directory, the 'r','w','x' represents the permissions of the current user, group and other, also known as read, write and execute. A 'd' prior to listed permissions indicates that the file is a directory. Directly after displayed permissions there is a number used to represent how hard links point to the file. After this, the owner's name will be displayed and that owner's group. Followed by file size and date of last modification.
+When listing files in a directory, the 'r','w','x' represents the permissions of the current user, group and other, also known as read, write and execute. A 'd' prior to listed permissions indicates that the file is a directory. Directly after displayed permissions there is a number used to represent how many hard links point to the file. After this, the owner's name will be displayed and that owner's group, followed by file size and date of last modification.
 
 Linux utilizes different accounts for different services. This means that an account with full-privileges does not need to be constantly in use, adding an additional layer of security to Linux.
 
