@@ -5,7 +5,7 @@ Virtualisation is the process of separating software from the hardware. This all
 
 Hypervisor (also known as Virtual Machine Monitor (VMM)) works as an interface between the VMs and a host machine.
 
-Hypervisor allows the user to separate the operating system from the hardware. Allowing for multiple virtual machines to utilize a piece of hardware e.g. GPU
+Hypervisor allows the user to separate the operating system from the hardware. Allowing for multiple virtual machines to utilize a piece of hardware.
 
 ### Types of Hypervisor
 
