@@ -67,7 +67,7 @@ Editors are used in order to alter files. Linux comes with numerous editors, but
 
 When listing files in a directory, the 'r','w','x' represents the permissions of the current user, group and other, also known as read, write and execute. A 'd' prior to listed permissions indicates that the file is a directory. Directly after displayed permissions there is a number used to represent how many hard links point to the file. After this, the owner's name will be displayed and that owner's group, followed by file size and date of last modification.
 
-Linux utilizes different accounts for different services. This means that an account with full-privileges does not need to be constantly in use, adding an additional layer of security to Linux.
+Linux utilizes different accounts for different services, therefore an account with full-privileges is not constantly required. This is beneficial as isolating privileges will boost the overall security of the system, as escalation of privileges will be harder to achieve for an attacker.
 
 The 'chmod' command can be utilized in order to edit a files RWX permissions. The 'chown' command can be utilized in order to change the ownership of a file.
 
