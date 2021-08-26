@@ -58,6 +58,7 @@ The Linux shell is a text interface to your computer (kernel.) Often referred to
 - '..' = points to previous directory
 
 [1^] whether the command is originating from shell or third-party
+
 [2^] '>' can be used to send the output to a file.
 
 ## Editing & Permissions
