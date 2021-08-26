@@ -24,7 +24,7 @@ A package manager is utilized in Linux in order to install, update and manage so
 
 ## Filesystem
 
-Linux utilizes EXT4, EXT3, BTRFS, XFS. Mainly EXT4 and EXT3. Linux works on the concept that everything starts at the **root** and "Everything is a file". When a device, such as a camera is plugged into a Linux machine, it will be treated as a file allowing for a simple read / write dynamic. In Linux, file extensions are only used to be associated with third-party programs or software, however the core OS treats all files the same and will not prevent the user from opening / executing it as they like.
+Linux utilizes EXT4, EXT3, BTRFS, XFS (mainly EXT4 and EXT3). Linux works on the concept that everything starts at the **root** and "Everything is a file". When a device, such as a camera is plugged into a Linux machine, it will be treated as a file allowing for a simple read / write dynamic. In Linux, file extensions are only used to be associated with third-party programs or software, however the core OS treats all files the same and will not prevent the user from opening / executing it as they like.
 
 ![Root Folders](images/rootFolders.png)
 
