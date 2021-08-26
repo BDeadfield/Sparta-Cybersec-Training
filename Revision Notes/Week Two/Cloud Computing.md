@@ -20,9 +20,9 @@ As more companies rely heavily on cloud computing for their daily workload, the 
 
 IaaS - Infrastructure as a Service is the utilization of third-party hardware and networks.
 
-PaaS - Platform as a Service is the same as IaaS, however software is also supplied by the third-party on-top.
+PaaS - Platform as a Service is the same as IaaS, however underlying software structure is also supplied by the third-party on-top.
 
-SaaS - Software as a service is when the full package is supplied under a lease from a third-party.
+SaaS - Software as a service is when the full package is supplied under a lease from a third-party, including hardware, infrastructure software as well as applicaiton software.
 
 ## Virtualizaton vs Cloud computing
 
