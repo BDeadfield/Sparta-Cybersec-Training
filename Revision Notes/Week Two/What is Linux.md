@@ -118,4 +118,4 @@ Logging is the process of saving information to a text file for later review. Th
 
 ## Scripting
 
-Linux utilizes a software known as 'Bash' for scripting through the shell. A script is a file containing a list of commands to be exectued when the file is ran.'.sh' is utilized to identify to a user that a file is a shell script. When creating a shell script, it is important to remember to set the file permissions to allow for execution by the user.
+Linux utilizes a software known as 'Bash' for scripting. A script is a file containing a list of commands to be exectued when the file is ran.'.sh' is utilized to identify to a user that a file is a shell script. When creating a shell script, it is important to remember to set the file permissions to allow for execution by the user.
