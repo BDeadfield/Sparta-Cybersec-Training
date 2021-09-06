@@ -15,7 +15,7 @@ A networking device would apply an ACL on each packet as follows:
 
 ### Wild card
 
-ACLs will use the wildcard rule to check if the source / destination IP address matches a specific rule. This works in the opposite to a subnet mask (replace 1 with 0, 0 with 1). In this scenario, a '1' will represent a bit of an IP that should be compared against any existing ACL rules, whereas a '0' will represent a bit that should be ignored.
+ACLs will use the wildcard rule to check if the source / destination IP address matches a specific rule. This works in the opposite to a subnet mask (replace 1 with 0, 0 with 1). In this scenario, a '0' will represent a bit of an IP that should be compared against any existing ACL rules, whereas a '1' will represent a bit that should be ignored.
 
 ## Firewalls
 
