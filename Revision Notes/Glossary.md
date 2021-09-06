@@ -22,7 +22,7 @@
 : Markdown is a lightweight mark-up language utilized for creating formatted plain-text files. This is often used in web design as a text-to-HTML-conversion tool.
 
 **Shell**
-: Shell, often also referred to as command line, terminal or console, is a text interface to your computer (kernel).
+: A shell, often also referred to as command line, terminal or console, is a text interface to your computer (kernel).
 
 **File-system**
 : A file-system is a method / set of rules as to how an operating system manages and stores data within a structure.

@@ -70,3 +70,25 @@ A **Demilitarized Zone** is an additional network coming from the firewall that 
 **Intrusion Prevention System** is a control system that can not only detect intrusions, but can also accept or reject packets based on a configured ruleset. IPS is a continuation along the line of innovation in network security considered to be somewhat of a hybrid between an IDS and a Firewall, due to this IPS are generally favoured over IDS.
 
 ## Virtual Private Network (VPN)
+
+A Virtual Privaite Network is a virtual connection between two networks that allows for tramsmittted data to be encrypted for security. This allows for a client to 'tunnel' into a private network by creating a virtual network in between the two exisinting networks (i.e. an office) allowing for enhanced security.
+
+| Benefit        | Description                                                                                                                                                                                                                      |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Cost Savings   | With the advent of cost-effective, high-bandwidth technologies, organizations can use VPNs to reduce their connectivity costs while simultaneously increasing remote connection bandwidth.                                       |
+| Security       | VPNs provide the highest level of security available, by usinng advanced encryption and authentication protocols that protect data from unaauthorized access.                                                                    |
+| Scalability    | VPNs allow organizations to use the Internet, making it easy to add new users with adding significant infrastructure                                                                                                             |
+| Compatability  | VPNs can be implemented across a wide variety of WAN link options including all the popular broadband technologies. Remote workers can take advantage of thee high-speed connections to gain secure access to corporate networks |
+
+**VPN Protocols:**
+- Point-to-Point Tunneling
+- Generic Route Encapsulation
+- Layer 2 Tunneling
+- IP Security
+- Secure Socket Layer
+
+**Host-to-Host VPNs** allow for a client to virtually connect to another client privately across public networks.
+
+**Host-To-Site VPNs** allow the client to virtually connect to a network's router gateway rather than a single mahcine. Allowing access to multiple devices / resources.
+
+**Site-to-Site VPNs** allow for one network to form a virtual connection to another network privately across public networks. Allowing for multiple end-points to be able to tunnel into another network.
