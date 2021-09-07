@@ -1,4 +1,4 @@
-# Read user input for numbers
+# Read user input and store as integer
 
 def userInput():
     x = int(input("What's the first number?"))
@@ -26,7 +26,7 @@ def division(firstNumber, secondNumber):
         print("\nYou can't divide by 0!\n")
         return None
     except:
-        print("Unkown error!")
+        print("Unknown error!")
         return None
     return total
 
