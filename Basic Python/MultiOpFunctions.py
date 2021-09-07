@@ -1,4 +1,4 @@
-# Read user input for numbers
+# Read user input and store as integer
 
 def userInput():
     x = int(input("What's the first number?"))
