@@ -26,7 +26,7 @@ def division(firstNumber, secondNumber):
         print("\nYou can't divide by 0!\n")
         return None
     except:
-        print("Unkown error!")
+        print("Unknown error!")
         return None
     return total
 
