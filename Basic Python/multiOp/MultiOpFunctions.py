@@ -33,8 +33,8 @@ def division(firstNumber, secondNumber):
 # Format results for printing to user
 
 def printResult (number1, number2, operation, result):
-    text = f"{firstNumber} {operation} {secondNumber} = {result}"
-    print(text)
+    equation = f"{firstNumber} {operation} {secondNumber} = {result}"
+    print(equation)
 
 # Iterate through and print results including formatting (unless one of the numbers is zero)
 
@@ -45,11 +45,11 @@ for index in range (0, 5):
     sum = addition(firstNumber, secondNumber)
     printResult(firstNumber, secondNumber, '+', sum)
 
-    sub = addition(firstNumber, secondNumber)
-    printResult(firstNumber, secondNumber, '+', sub)
+    sub = subtraction(firstNumber, secondNumber)
+    printResult(firstNumber, secondNumber, '-', sub)
 
-    multi = addition(firstNumber, secondNumber)
-    printResult(firstNumber, secondNumber, '+', multi)
+    multi = multiplication(firstNumber, secondNumber)
+    printResult(firstNumber, secondNumber, '*', multi)
 
     div = division(firstNumber, secondNumber)
     printResult(firstNumber, secondNumber, '/', div)
