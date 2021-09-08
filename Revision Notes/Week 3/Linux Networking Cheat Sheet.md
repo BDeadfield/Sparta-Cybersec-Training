@@ -64,7 +64,7 @@
 
 **Establish VPN Connection** - Starts VPN service
 
-> sudo openvpn --config {client / server}.conf -daemon
+> sudo openvpn --config {client / server}.conf --daemon
 
 ## Misc.
 
