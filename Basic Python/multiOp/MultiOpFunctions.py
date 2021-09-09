@@ -1,3 +1,5 @@
+import json
+
 # Read user input and store as integer
 
 def userInput():
@@ -32,24 +34,44 @@ def division(firstNumber, secondNumber):
 
 # Format results for printing to user
 
-def printResult (number1, number2, operation, result):
+def result (number1, operation, number2, result):
     equation = f"{firstNumber} {operation} {secondNumber} = {result}"
-    print(equation)
+    return equation
 
-# Iterate through and print results including formatting (unless one of the numbers is zero)
+# Create counter for loops
 
-for index in range (0, 5):
+counter = 0
+
+# Loop five times taking users input for two numbers, totalling results from four different operations and formatting them as an equation, then saving this format as a dictionary in a json file
+
+for index in range (counter, 5):
+
+    counter += 1
 
     firstNumber, secondNumber = userInput()
 
-    sum = addition(firstNumber, secondNumber)
-    printResult(firstNumber, secondNumber, '+', sum)
+    sumResult = addition(firstNumber, secondNumber)
+    subResult = subtraction(firstNumber, secondNumber)
+    multiResult = multiplication(firstNumber, secondNumber)
+    divResult = division(firstNumber, secondNumber)
 
-    sub = subtraction(firstNumber, secondNumber)
-    printResult(firstNumber, secondNumber, '-', sub)
+    sum = result(firstNumber, '+', secondNumber, sumResult)
+    sub = result(firstNumber, '-', secondNumber, subResult)
+    multi = result(firstNumber, '*', secondNumber, multiResult)
+    div = result(firstNumber, '/', secondNumber, divResult)
 
-    multi = multiplication(firstNumber, secondNumber)
-    printResult(firstNumber, secondNumber, '*', multi)
+    equations =  {
+        'Addition': sum,
+        'Subtraction': sub,
+        'Multiplication': multi,
+        'Division': div,
+    }
 
-    div = division(firstNumber, secondNumber)
-    printResult(firstNumber, secondNumber, '/', div)
+    mainDict = {
+        counter: equations,
+    }
+
+    print(mainDict)
+
+    with open('results.json', 'a+') as file:
+        json.dump(mainDict, file, indent = 4)
