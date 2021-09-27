@@ -25,3 +25,23 @@ As a user, I should be able to generate a password for use. Once generated, this
 **Q:** Should the program check for multiple date formats when checking for birth dates in a password?
 
 **A:** Any format can be checked.
+
+## Powerpoint Notes
+
+**Trello**
+- Trello was used for progression tracking
+  - Assisted with team coordination / management
+- Epic Stories and User stories
+- Peer review
+
+**Coding Approach**
+- Modular approach (different files) for each function
+  - Allowing for easier coordination, reusability and debugging
+- Developed testing utilites using unit testing prior to finshing development on functions
+
+**Test Driven Development**
+- Screenshot of one of our unit tests for comparing password against policy
+  - Imports unit test and policy function
+  - File is ran, data is input to the policy function and processed
+  - Output from function is compared against expected
+- Validates unit of software perfoms as intended
