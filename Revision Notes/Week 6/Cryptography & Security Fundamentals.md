@@ -54,7 +54,12 @@ Secure communication consists of four elements:
 
 ## Public Key Infrastructure
 
-Public Key Infrastructure (PKI) is an example of a trusted-third party system also known as certificate authority (CA). The CA will provide authentication to users in the form of a digital certicate, which users will recognize as being validated by the CA. This allows for large-scale distribution and scalability of trust relationships using public keys.
+Public Key Infrastructure (PKI) is an example of a trusted-third party system also known as certificate authority (CA). The CA will provide authentication to users in the form of a digital certicate, which users will recognize as being validated by the CA. This allows for large-scale distribution and scalability of trust relationships using public keys. PKI is beneficial for:
+- Securing web pages
+- Encrypting files
+- Encrypting and Authenitcating email
+- Authenticating to Wireless Access Points
+- Authenticating to Virtual Private Networks
 
 **Single-root** topologies utilizes a singluar CA in order to issue certificates to end-users, which are usually in the same organisation.
 **Cross-certified** topologies utilize a peer-to-peer model to establish trust with other CAs in order to provide trust amongst their domains.
