@@ -24,7 +24,7 @@ Symmetric Ciphers are the simplest method of encryption, which utilizes a secret
 
 ## Asymmetric Ciphers
 
-Asymmetric ciphers also know as public key algorithms, is where each user has a public / private key, a sender will request the recipents public key, before using it to encrypt the message prior to sending it back. When the recipent recieves the message, they will use their private key to decrypt the message.
+Asymmetric ciphers also know as public key algorithms, is where each user has a public / private key, a sender will request the recipents public key, before using it to encrypt the message prior to sending it. When the recipent recieves the message, they will use their private key to decrypt the message.
 
 - **Diffie-Hellman** is a way of exchanging cryptographic keys. Diffie-Hellman utilizes a pre-shared key, which is added to each user's private key to create a sum, which will be exchanged with the other user, the other user will then proceed to add their private key to the other user's sum, which will result in an identical key on both sides.
 - **ElGamal** is based on the diffie hellman method, however encrypted messages become much larger, and because of this is only used for small amounts of data, such as secret keys.
