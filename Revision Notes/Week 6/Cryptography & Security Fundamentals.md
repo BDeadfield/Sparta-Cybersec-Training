@@ -86,7 +86,7 @@ Public Key Infrastructure (PKI) is an example of a trusted-third party system al
 
 ## Authentication, Authorization and Accounting (AAA)
 
-The AAA framework is a simple way to understand security issueus surrounding users access of resources and / or systems. The AAA framework utilizes the priniciple of authenticaton to attain the identify of the user, authorization to manage the user's access of resources and accounting to maintain a detailed log of actions taken to hold user's accountable.
+The AAA framework is a simple way to understand security issues surrounding users access of resources and / or systems. The AAA framework utilizes the priniciple of authenticaton to attain the identify of the user, authorization to manage the user's access of resources and accounting to maintain a detailed log of actions taken to hold user's accountable.
 
 **AAA Server** can be utilized in order to handle user requests for access to systems or resources.
 
