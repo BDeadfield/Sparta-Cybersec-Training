@@ -92,6 +92,9 @@ Public Key Infrastructure (PKI) is the framework of security and encryption used
 ## Authentication, Authorization and Accounting (AAA)
 
 The AAA framework is a simple way to understand security issues surrounding users access of resources and / or systems. The AAA framework utilizes the priniciple of authenticaton to attain the identify of the user, authorization to manage the user's access of resources and accounting to maintain a detailed log of actions taken to hold user's accountable.
+- **Authentication** will usually be handled by using a username and password to login before accessing a network / resources.
+- **Authorization** will usually be enforced using policies which determine what the user can and cannot do.
+- **Accounting** will usually be performed by the monitoring and logging of user activity on the system or resource.
 
 **AAA Server** can be utilized in order to handle user requests for access to systems or resources.
 
