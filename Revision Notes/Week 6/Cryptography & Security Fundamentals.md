@@ -54,7 +54,7 @@ Secure communication consists of four elements:
 
 ## Public Key Infrastructure
 
-Public Key Infrastructure (PKI) is the framework of security and encryption used to authenticate and secure users by using digital certifitcats handed out by a Certificate Authority (CA). The CA will provide authentication to users in the form of a digital certicate, which users will recognize as being validated by the CA. This allows for large-scale distribution and scalability of trust relationships using public keys. PKI is beneficial for:
+Public Key Infrastructure (PKI) is the framework of security and encryption used to authenticate and secure users using public / private keys. These keys can be used to generate a digitial signatures, which can then be applied to a digital certificate. PKI is beneficial for:
 - Securing web pages
 - Encrypting files
 - Encrypting and Authenitcating email
@@ -65,14 +65,14 @@ Public Key Infrastructure (PKI) is the framework of security and encryption used
 **Cross-certified** topologies utilize a peer-to-peer model to establish trust with other CAs in order to provide trust amongst their domains.
 **Hierarchical** topologies utilize root CA's to issue certificates to subordinte CA's, which further issue certificates to end-points.
 
-**Digital Signatures** are a mathematical technique which produce a signature that cannot be forged, reused in another document and prevent the alteration of a document after signing. **DSA, RSA and Eliptic Curve Digital Signature** algorithms can be used in order to produce digital signatures. They are used to provide:
+A **digitial signature** is produced by hashing a plaintext message, and encrypting it using a private key before appending to the message. This provides integrity by allowing the recipent to confirm the hash value using the sender's public key. **DSA, RSA and Eliptic Curve Digital Signature** algorithms can be used in order to produce digital signatures. They are used to provide:
 - Authenticity by proving an individual has seen and signed the data
 - Integrity by proving the data hasn't been modified since signing
 - Non-repudiation by proving that the transaction of data did in fact take place.
 
 **Code signing** is a way digital signatures are used in order to provide integrity for executable files downloaded from a website as well as authentication to verify the identity of the website.
 
-**Digital Certificates** are another way digital signatures are used in a manner similar to an ID card in order to verify a website and establish an encrypted connection. These will include details on:
+A digital certifcate is a file authenticated by a Certificate Authority which provides proof of authenticity to a device similar to identication for a person through the use of PKI (private key to encrypt signature and public to decrypt). These will include details on:
 - Public key
 - Usage
 - CA Issuer
